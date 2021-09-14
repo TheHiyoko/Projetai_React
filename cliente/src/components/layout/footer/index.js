@@ -1,5 +1,6 @@
 import React from "react";
 
+// FooterComponent
 export default function FooterComponent() {
     return (
         <>

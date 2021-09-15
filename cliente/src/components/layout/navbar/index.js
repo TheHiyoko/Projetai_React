@@ -27,7 +27,7 @@ export default function NavbarComponet() {
                         </Nav>
                         <Nav>
                             <NavDropdown title="Mais" className="text-Secondary">
-                                <NavDropdown.Item href="/registro">Registro</NavDropdown.Item>
+                                <NavDropdown.Item href="/cadastro">Registro</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="/login">Login</NavDropdown.Item>
                             </NavDropdown>

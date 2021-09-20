@@ -20,7 +20,7 @@ export default function LoginPage() {
                     <Row className='container text-center p-2'>
                         <Link className='p-3' to="/cadastro">Não tem cadastrado?</Link>
                         <Button variant="outline-primary" type="submit">
-                            Registro
+                            Entrar
                         </Button>
                     </Row>
                 </Form>

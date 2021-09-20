@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
 
 // Importando Pages 
 import Navbar from './components/layout/navbar';
@@ -18,15 +17,13 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Container className="pt-5">
           <Route exact path="/" component={IndexPage} />
           <Route path="/participantes" component={ParticipantesComponet} />
           <Route path="/programacao" component={SchedulePage} />
           <Route path="/banca" component={BoardPage} />
           <Route path="/login" component={LoginComponent} />
           <Route path="/cadastro" component={RegisterPage} />
-          <Router component={NotfoundComponent} />
-        </Container>
+          <Router path="*" component={NotfoundComponent} />
       </Switch>
       <FooterComponent />
     </Router>

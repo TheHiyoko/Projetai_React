@@ -8,8 +8,8 @@ export default function BoardPage() {
     useEffect(() => {
         http.get("/project/list").then((response) => setProjects(response.data))
     }, []);
-
-    const { message } = projects
+    const { message } = projects;
+    
     return (
         <>
             <Container>

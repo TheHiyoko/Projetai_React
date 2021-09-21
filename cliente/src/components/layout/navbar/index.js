@@ -10,7 +10,7 @@ import { MenuItems } from "./MenuItems";
 export default function NavbarComponet() {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg">
                 <Container>
                     <Navbar.Brand href="/">Projetai</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

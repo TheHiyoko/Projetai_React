@@ -13,7 +13,7 @@ export default function ProjetosPage() {
     const { message } = projects
     return (
         <>
-            <Row>
+            <Row className="p-0 m-0">
                 <ColStyled xl="3" color="0288D1" >
                     <Container className="p-5">
                         <ListGroup>

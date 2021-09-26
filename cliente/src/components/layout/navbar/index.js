@@ -5,6 +5,7 @@ import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 
 // Importação Do menu
 import { MenuItems } from "./MenuItems";
+import { BsJustify } from "react-icons/bs";
 
 // NavbarComponet
 export default function NavbarComponet() {
@@ -25,7 +26,9 @@ export default function NavbarComponet() {
                                 )
                             })}
                         </Nav>
+                        <BsJustify />
                         <Nav>
+                            
                             <NavDropdown title="Mais" className="text-Secondary">
                                 <NavDropdown.Item href="/cadastro">Registro</NavDropdown.Item>
                                 <NavDropdown.Divider />

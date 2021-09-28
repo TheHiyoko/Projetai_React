@@ -36,7 +36,7 @@ export default function ProjetosPage() {
                                             <Card.Title className="text-center">{array.name}</Card.Title>
                                             <Card.Text className="mb-3">{array.description}
                                             </Card.Text>
-                                            <Button variant="primary">Go somewhere</Button>
+                                            <Button href="/projeto/individual" variant="primary">Go somewhere</Button>
                                         </Card.Body>
                                     </CardStyled>
                                 </Col>

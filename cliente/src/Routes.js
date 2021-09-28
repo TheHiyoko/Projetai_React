@@ -7,6 +7,7 @@ import RegisterPage from './components/pages/registro';
 import SchedulePage from './components/pages/programacao';
 import BoardPage from './components/pages/banca';
 import ProjetosPage from './components/pages/projetosPage';
+import Projeto from './components/pages/projeto'
 import ParticipantesComponet from './components/pages/participantes';
 import IndexPage from './components/pages/index/index';
 import NotfoundComponent from './components/pages/notfound';
@@ -28,6 +29,7 @@ const Routes = () => {
                 <Route path="/banca" component={BoardPage} />
                 <Route path="/login" component={LoginComponent} />
                 <Route path="/cadastro" component={RegisterPage} />
+                <Route path="/projeto/individual" component={Projeto} />
                 <Route component={NotfoundComponent} />
                 <PrivateRoute />
             </Switch>
